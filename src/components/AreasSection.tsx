@@ -33,7 +33,7 @@ const areas = [
   },
   {
     icon: Receipt,
-    title: "Direito Tributário e Recuperação de Créditos",
+    title: "Direito Tributário e Recuperação de Créditos Tributários",
     desc: "Planejamento tributário estratégico, revisão de tributos pagos a maior, recuperação de créditos de ICMS, PIS, COFINS e outros impostos, defesa em autos de infração, parcelamentos e transações tributárias com a Fazenda Pública. Auxiliamos empresas e pessoas físicas a reduzirem sua carga tributária dentro da legalidade e a recuperarem valores indevidamente recolhidos."
   },
   {
