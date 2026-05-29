@@ -1,4 +1,4 @@
-import { Clock, Users, Building, Briefcase, ShieldAlert, Scale, ArrowRight } from "lucide-react";
+import { Clock, Users, Building, Briefcase, ShieldAlert, Scale, ArrowRight, Receipt, Gavel, ShoppingCart } from "lucide-react";
 
 const areas = [
   {
@@ -30,6 +30,21 @@ const areas = [
     icon: Scale,
     title: "Direito Eleitoral e Público",
     desc: "Assessoria jurídica completa a candidatos e partidos políticos em registro de candidatura, prestação de contas, propaganda eleitoral, impugnações e ações eleitorais. No âmbito do Direito Público, atuamos em licitações, contratos administrativos, concursos públicos, mandados de segurança e ações contra o poder público em defesa dos direitos do cidadão."
+  },
+  {
+    icon: Receipt,
+    title: "Direito Tributário e Recuperação de Créditos",
+    desc: "Planejamento tributário estratégico, revisão de tributos pagos a maior, recuperação de créditos de ICMS, PIS, COFINS e outros impostos, defesa em autos de infração, parcelamentos e transações tributárias com a Fazenda Pública. Auxiliamos empresas e pessoas físicas a reduzirem sua carga tributária dentro da legalidade e a recuperarem valores indevidamente recolhidos."
+  },
+  {
+    icon: Gavel,
+    title: "Direito Penal",
+    desc: "Atuação especializada na defesa criminal em crimes dolosos e culposos, crimes econômicos e empresariais, tráfico de drogas, crimes cibernéticos e contra a administração pública. Acompanhamos o cliente desde a fase investigativa no inquérito policial até o trânsito em julgado, garantindo o pleno exercício do contraditório, da ampla defesa e da presunção de inocência."
+  },
+  {
+    icon: ShoppingCart,
+    title: "Direito do Consumidor",
+    desc: "Defesa dos direitos do consumidor em casos de cobranças indevidas, negativação injusta, vícios em produtos e serviços, descumprimento de oferta, contratos abusivos, falhas em serviços bancários e de telecomunicações. Atuamos judicialmente e extrajudicialmente para garantir a reparação de danos materiais e morais, com foco em resultados rápidos e eficientes."
   },
 ];
 
