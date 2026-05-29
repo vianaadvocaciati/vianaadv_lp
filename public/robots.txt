@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://vianaadv.adv.br/sitemap.xml
