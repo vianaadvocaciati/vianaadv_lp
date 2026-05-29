@@ -24,7 +24,7 @@ const Footer = () => (
             }}
           />
           <p className="font-body text-sm leading-relaxed" style={{ color: "rgba(240,211,123,0.5)" }}>
-            Há mais de 19 anos atuando na defesa dos direitos de nossos clientes com excelência e compromisso.
+            Há mais de 20 anos atuando na defesa dos direitos de nossos clientes com excelência e compromisso.
           </p>
           <div className="flex gap-5 pt-1">
             <a
