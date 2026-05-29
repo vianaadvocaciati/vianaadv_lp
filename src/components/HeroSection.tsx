@@ -58,7 +58,7 @@ const HeroSection = () => (
           }}
         >
           <Award size={14} />
-          Mais de 19 Anos de Atuação
+          Mais de 20 Anos de Atuação
         </div>
 
         {/* Headline */}
