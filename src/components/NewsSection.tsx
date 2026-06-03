@@ -204,7 +204,9 @@ export default function NewsSection() {
   function scroll(dir: "prev" | "next") {
     const el = trackRef.current;
     if (!el) return;
-    const step = (CARD_W + CARD_GAP) * 3; // avança ~3 cards por clique
+    const isMobile = window.innerWidth < 768;
+    const cardsToSkip = isMobile ? 1 : 3;
+    const step = (CARD_W + CARD_GAP) * cardsToSkip;
     el.scrollBy({ left: dir === "next" ? step : -step, behavior: "smooth" });
   }
 
