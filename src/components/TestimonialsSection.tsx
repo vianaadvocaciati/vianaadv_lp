@@ -7,7 +7,7 @@ const testimonials = [
     text: "Deixo aqui registrado meu reconhecimento e agradecimento a Dr. Wallysson, pelo excelente trabalho que realiza. Ao longo de todo o atendimento, sempre me tratou com extrema cordialidade, respeito e profissionalismo. Cada atendimento foi transmitido com muita atenção, clareza, responsabilidade e demonstrando não apenas o conhecimento técnico, mas também o compromisso e humanidade. Em um momento em que encontrava-me fragilizada, que exigia confiança e segurança, encontrei em Dr. Wallysson, um profissional acessível, postura ética, humana, atencioso e que fez toda a diferença durante o processo. É um profissional que une competência, seriedade, ética, empatia e por isso merece ser reconhecido. Recomendo seus serviços com absoluta confiança a todos que buscam um atendimento de excelência. Minha sincera gratidão por toda a atenção, dedicação e cuidado dispensados.",
   },
   {
-    name: "Aristea brito barros Barros",
+    name: "Aristea Brito Barros",
     text: "Quero agradecer ao escritório VIANA DE ADVOCACIA que me atendeu com imenso carinho e respeito, me acompanhou em uma causa muito importante. Fui atendida com profissionalismo, transparência e respeito em todos os momentos. Recentemente, obtive a decisão favorável e estou muito satisfeita com o resultado. Minha gratidão a toda a equipe pelo excelente trabalho. Recomendo o escritório VIANA DE ADVOCACIA com todo o meu coração!",
   },
   {
