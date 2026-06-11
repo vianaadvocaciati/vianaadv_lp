@@ -7,6 +7,7 @@ const navLinks = [
   { label: "Equipe", href: "#equipe" },
   { label: "Áreas", href: "#areas" },
   { label: "Unidades", href: "#unidades" },
+  { label: "Notícias", href: "#noticias" },
 ];
 
 const Header = () => {
