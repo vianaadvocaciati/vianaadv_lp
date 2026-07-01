@@ -25,7 +25,7 @@ const team = [
   },
   { name: "Dr. Matheus David Lima de Souza",  role: "Advogado",  oab: "OAB BA-81307", desc: "Especialista em Direito Penal, Processo Penal, Direito Ambiental e Direito Urbanístico.",                          img: Matheus },
   { name: "Dr. Cleidemauro da Conceição Silva", role: "Advogado ",  oab: "OAB BA-87660", desc: "Especialista em Direito Penal, Processo Penal, Direito Processual Civil e Direito do Consumidor.",             img: Cleidemauro },
-  { name: "Dr. Gustavo Cunha Donato",  role: "Advogado",  oab: "OAB BA-58171", desc: "Especialista em Direito Imobiliário e Direito Negocial.",                   img: Gustavo },
+  { name: "Dr. Gustavo Cunha Donato",  role: "Advogado",  oab: "OAB BA-58171", desc: "Especialista em Direito Imobiliário e Direito Negocial.",                   img: Gustavo, objectPosition: "50% 40%" },
   { name: "Dr. Tiago Sales de Souza", role: "Advogado",  oab: "OAB SP-420754", desc: "Especialista em Direito Penal, Processo Penal, Direito Processual Civil e Direito Previdenciário.",           img: Tiago },
   { name: "Dra. Kamilla Souza Domingues",  role: "Advogada",  oab: "OAB BA-81618", desc: "Especialista em Direito Penal, Processo Penal, Direito da Família e Segurança Pública.",                 img: Kamilla, objectPosition: "50% 30%" },
 ];
