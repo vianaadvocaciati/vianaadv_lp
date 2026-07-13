@@ -23,12 +23,32 @@ interface NewsItem {
 
 // ─── Helpers ─────────────────────────────────────────────────────────────────
 
+function decodeHtmlEntities(text: string): string {
+  const entities: Record<string, string> = {
+    "&amp;": "&",
+    "&lt;": "<",
+    "&gt;": ">",
+    "&quot;": '"',
+    "&#39;": "'",
+    "&#8211;": "-",
+    "&#8212;": "—",
+    "&#8216;": "'",
+    "&#8217;": "'",
+    "&#8220;": '"',
+    "&#8221;": '"',
+    "&#8230;": "...",
+    "&#038;": "&",
+    "&nbsp;": " ",
+  };
+  return text.replace(/&#?\w+;/g, (match) => entities[match] || match);
+}
+
 function stripHtml(html: string, max = 160): string {
-  return html
+  const stripped = html
     .replace(/<[^>]*>/g, " ")
     .replace(/\s+/g, " ")
-    .trim()
-    .slice(0, max);
+    .trim();
+  return decodeHtmlEntities(stripped).slice(0, max);
 }
 
 function formatDate(raw: string): string {
