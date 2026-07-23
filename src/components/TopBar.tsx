@@ -15,7 +15,7 @@ const TopBar = () => (
       </div>
       <span className="flex items-center gap-1.5">
         <Phone size={12} className="shrink-0" style={{ color: "#D6AF45" }} />
-        Atendimento: (77) 99965-7852
+        Atendimento: (77) 99808-1301
       </span>
     </div>
   </div>

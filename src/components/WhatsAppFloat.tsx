@@ -2,7 +2,7 @@ import { MessageCircle } from "lucide-react";
 
 const WhatsAppFloat = () => (
   <a
-    href="https://wa.me/5577999657852?text=Ol%C3%A1.%20Preciso%20de%20atendimento%20juridico."
+    href="https://wa.me/5577998081301?text=Ol%C3%A1.%20Preciso%20de%20atendimento%20juridico."
     target="_blank"
     rel="noopener noreferrer"
     aria-label="Falar pelo WhatsApp"

@@ -123,7 +123,7 @@ const AreasSection = () => (
             </p>
 
             <a
-              href="https://wa.me/5577999657852?text=Ol%C3%A1.%20Preciso%20de%20atendimento%20juridico."
+              href="https://wa.me/5577998081301?text=Ol%C3%A1.%20Preciso%20de%20atendimento%20juridico."
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-1.5 font-body text-sm font-semibold transition-all duration-200 group-hover:gap-3"

@@ -102,7 +102,7 @@ const AboutSection = () => (
         </ul>
 
         <a
-          href="https://wa.me/5577999657852?text=Ol%C3%A1.%20Preciso%20de%20atendimento%20juridico."
+          href="https://wa.me/5577998081301?text=Ol%C3%A1.%20Preciso%20de%20atendimento%20juridico."
           target="_blank"
           rel="noopener noreferrer"
           className="btn-shimmer inline-flex items-center gap-2 px-7 py-3.5 rounded-xl font-body font-semibold text-sm transition-all duration-300 hover:scale-105"

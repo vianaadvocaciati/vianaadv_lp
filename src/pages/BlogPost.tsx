@@ -77,7 +77,7 @@ const BlogPost = () => {
               <p className="font-body text-[#A3B3A7] text-sm md:text-base">Nossa equipe é especialista neste assunto e está pronta para analisar seus direitos de forma sigilosa.</p>
             </div>
             <a 
-              href="https://wa.me/5577999657852?text=Ol%C3%A1.%20Preciso%20de%20atendimento%20juridico."
+              href="https://wa.me/5577998081301?text=Ol%C3%A1.%20Preciso%20de%20atendimento%20juridico."
               target="_blank"
               rel="noopener noreferrer"
               className="relative z-10 whitespace-nowrap px-8 py-4 rounded-xl font-body font-bold text-black text-sm uppercase tracking-wider transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-[#D6AF45]/20"

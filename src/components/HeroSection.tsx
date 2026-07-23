@@ -86,7 +86,7 @@ const HeroSection = () => (
         {/* CTA row */}
         <div className="flex flex-wrap gap-4 animate-fade-up delay-300">
           <a
-            href="https://wa.me/5577999657852?text=Ol%C3%A1.%20Preciso%20de%20atendimento%20juridico."
+            href="https://wa.me/5577998081301?text=Ol%C3%A1.%20Preciso%20de%20atendimento%20juridico."
             target="_blank"
             rel="noopener noreferrer"
             className="btn-shimmer inline-flex items-center gap-2 px-8 py-4 rounded-xl font-body font-semibold text-base transition-all duration-300 hover:scale-105 hover:shadow-2xl glow-gold"

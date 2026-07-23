@@ -161,7 +161,7 @@ const Footer = () => (
           <div className="space-y-3 font-body text-sm">
             <p className="flex items-center gap-2.5" style={{ color: "rgba(240,211,123,0.55)" }}>
               <Phone size={14} style={{ color: "#D6AF45" }} />
-              (77) 99965-7852
+              (77) 99808-1301
             </p>
             <p className="flex items-center gap-2.5" style={{ color: "rgba(240,211,123,0.55)" }}>
               <Mail size={14} style={{ color: "#D6AF45" }} />
@@ -172,7 +172,7 @@ const Footer = () => (
               Carinhanha e Cocos, BA
             </p>
             <a
-              href="https://wa.me/5577999657852?text=Ol%C3%A1.%20Preciso%20de%20atendimento%20juridico."
+              href="https://wa.me/5577998081301?text=Ol%C3%A1.%20Preciso%20de%20atendimento%20juridico."
               target="_blank"
               rel="noopener noreferrer"
               className="btn-shimmer inline-flex items-center gap-2 px-5 py-2.5 rounded-lg font-semibold text-sm transition-all duration-300 hover:scale-105 mt-2"
