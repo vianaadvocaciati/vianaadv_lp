@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { Menu, X, MessageCircle } from "lucide-react";
+import { LogIn, Menu, X, MessageCircle } from "lucide-react";
 import logoViana from "@/assets/logo-viana.png";
 
 const navLinks = [
@@ -47,7 +47,7 @@ const Header = () => {
         </a>
 
         {/* Desktop nav */}
-        <nav className="hidden md:flex items-center gap-8">
+        <nav className="hidden xl:flex items-center gap-8">
           {navLinks.map((l) => (
             <a
               key={l.href}
@@ -65,7 +65,15 @@ const Header = () => {
         </nav>
 
         {/* CTA button */}
-        <div className="hidden md:block">
+        <div className="hidden xl:flex items-center gap-3">
+          <a
+            href="https://cliente.wallyssonviana.com.br"
+            className="inline-flex items-center gap-2 rounded-lg border px-4 py-2.5 font-body text-sm font-semibold transition-all duration-200 hover:border-[#F0D37B] hover:text-[#F0D37B]"
+            style={{ borderColor: "rgba(240,211,123,0.45)", color: "rgba(240,211,123,0.92)" }}
+          >
+            <LogIn size={15} />
+            Área do Cliente
+          </a>
           <a
             href="https://wa.me/5577998081301?text=Ol%C3%A1.%20Preciso%20de%20atendimento%20juridico."
             target="_blank"
@@ -83,7 +91,7 @@ const Header = () => {
 
         {/* Mobile hamburger */}
         <button
-          className="md:hidden transition-colors duration-200"
+          className="xl:hidden transition-colors duration-200"
           style={{ color: "#F0D37B" }}
           onClick={() => setOpen(!open)}
           aria-label="Menu"
@@ -95,7 +103,7 @@ const Header = () => {
       {/* Mobile drawer */}
       {open && (
         <div
-          className="md:hidden px-6 pb-6 pt-4 space-y-4 animate-fade-up"
+          className="xl:hidden px-6 pb-6 pt-4 space-y-4 animate-fade-up"
           style={{
             background: "rgba(13,26,16,0.97)",
             borderTop: "1px solid rgba(214,175,69,0.1)",
@@ -112,6 +120,15 @@ const Header = () => {
               {l.label}
             </a>
           ))}
+          <a
+            href="https://cliente.wallyssonviana.com.br"
+            onClick={() => setOpen(false)}
+            className="flex w-full items-center justify-center gap-2 rounded-lg border py-3 font-body text-sm font-semibold transition-colors duration-200 hover:border-[#F0D37B] hover:text-[#F0D37B]"
+            style={{ borderColor: "rgba(240,211,123,0.45)", color: "rgba(240,211,123,0.92)" }}
+          >
+            <LogIn size={16} />
+            Área do Cliente
+          </a>
           <a
             href="https://wa.me/5577998081301?text=Ol%C3%A1.%20Preciso%20de%20atendimento%20juridico."
             target="_blank"
