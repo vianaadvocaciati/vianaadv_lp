@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { LogIn, Menu, X, MessageCircle } from "lucide-react";
+import { Menu, X, MessageCircle } from "lucide-react";
 import logoViana from "@/assets/logo-viana.png";
 
 const navLinks = [
@@ -67,14 +67,6 @@ const Header = () => {
         {/* CTA button */}
         <div className="hidden xl:flex items-center gap-3">
           <a
-            href="https://cliente.wallyssonviana.com.br"
-            className="inline-flex items-center gap-2 rounded-lg border px-4 py-2.5 font-body text-sm font-semibold transition-all duration-200 hover:border-[#F0D37B] hover:text-[#F0D37B]"
-            style={{ borderColor: "rgba(240,211,123,0.45)", color: "rgba(240,211,123,0.92)" }}
-          >
-            <LogIn size={15} />
-            Área do Cliente
-          </a>
-          <a
             href="https://wa.me/5577998081301?text=Ol%C3%A1.%20Preciso%20de%20atendimento%20juridico."
             target="_blank"
             rel="noopener noreferrer"
@@ -120,15 +112,6 @@ const Header = () => {
               {l.label}
             </a>
           ))}
-          <a
-            href="https://cliente.wallyssonviana.com.br"
-            onClick={() => setOpen(false)}
-            className="flex w-full items-center justify-center gap-2 rounded-lg border py-3 font-body text-sm font-semibold transition-colors duration-200 hover:border-[#F0D37B] hover:text-[#F0D37B]"
-            style={{ borderColor: "rgba(240,211,123,0.45)", color: "rgba(240,211,123,0.92)" }}
-          >
-            <LogIn size={16} />
-            Área do Cliente
-          </a>
           <a
             href="https://wa.me/5577998081301?text=Ol%C3%A1.%20Preciso%20de%20atendimento%20juridico."
             target="_blank"

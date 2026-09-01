@@ -3,16 +3,13 @@ import { describe, expect, it } from "vitest";
 import Header from "./Header";
 
 describe("Header", () => {
-  it("offers the client portal in the desktop header and mobile menu", () => {
+  it("does not advertise the client portal in the public landing page", () => {
     render(<Header />);
 
-    expect(screen.getByRole("link", { name: "Área do Cliente" })).toHaveAttribute(
-      "href",
-      "https://cliente.wallyssonviana.com.br",
-    );
+    expect(screen.queryByRole("link", { name: "Área do Cliente" })).not.toBeInTheDocument();
 
     fireEvent.click(screen.getByRole("button", { name: "Menu" }));
 
-    expect(screen.getAllByRole("link", { name: "Área do Cliente" })).toHaveLength(2);
+    expect(screen.queryByRole("link", { name: "Área do Cliente" })).not.toBeInTheDocument();
   });
 });
