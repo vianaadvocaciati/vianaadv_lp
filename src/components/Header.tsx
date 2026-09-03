@@ -47,7 +47,7 @@ const Header = () => {
         </a>
 
         {/* Desktop nav */}
-        <nav className="hidden xl:flex items-center gap-8">
+        <nav className="hidden md:flex items-center gap-8">
           {navLinks.map((l) => (
             <a
               key={l.href}
@@ -67,6 +67,12 @@ const Header = () => {
         {/* CTA button */}
         <div className="hidden xl:flex items-center gap-3">
           <a
+            href="https://cliente.wallyssonviana.com.br"
+            className="inline-flex items-center px-4 py-2.5 rounded-lg border border-[#D6AF45]/50 font-body text-sm font-semibold text-[#F0D37B] transition-all duration-300 hover:bg-[#D6AF45]/10"
+          >
+            Área do Cliente
+          </a>
+          <a
             href="https://wa.me/5577998081301?text=Ol%C3%A1.%20Preciso%20de%20atendimento%20juridico."
             target="_blank"
             rel="noopener noreferrer"
@@ -83,7 +89,7 @@ const Header = () => {
 
         {/* Mobile hamburger */}
         <button
-          className="xl:hidden transition-colors duration-200"
+          className="md:hidden transition-colors duration-200"
           style={{ color: "#F0D37B" }}
           onClick={() => setOpen(!open)}
           aria-label="Menu"
@@ -95,7 +101,7 @@ const Header = () => {
       {/* Mobile drawer */}
       {open && (
         <div
-          className="xl:hidden px-6 pb-6 pt-4 space-y-4 animate-fade-up"
+          className="md:hidden px-6 pb-6 pt-4 space-y-4 animate-fade-up"
           style={{
             background: "rgba(13,26,16,0.97)",
             borderTop: "1px solid rgba(214,175,69,0.1)",
@@ -121,6 +127,9 @@ const Header = () => {
           >
             <MessageCircle size={16} />
             Falar com Advogado
+          </a>
+          <a href="https://cliente.wallyssonviana.com.br" className="flex items-center justify-center w-full py-3 rounded-lg border border-[#D6AF45]/50 font-body font-semibold text-sm text-[#F0D37B]">
+            Área do Cliente
           </a>
         </div>
       )}
